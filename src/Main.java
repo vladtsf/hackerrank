@@ -12,6 +12,7 @@ public class Main {
     public static void main(String[] args) {
 //        ArraysDataStructures.ArraysDS.main(args);
 //        ArraysDataStructures.TwoDArray.main(args);
-        ArraysDataStructures.LeftRotation.main(args);
+//        ArraysDataStructures.LeftRotation.main(args);
+        ArraysDataStructures.SparseArrays.main(args);
     }
 }
