@@ -13,6 +13,11 @@ public class Main {
 //        ArraysDataStructures.ArraysDS.main(args);
 //        ArraysDataStructures.TwoDArray.main(args);
 //        ArraysDataStructures.LeftRotation.main(args);
-        ArraysDataStructures.SparseArrays.main(args);
+//        ArraysDataStructures.SparseArrays.main(args);
+        
+//        LinkedListDataStructures.PrintLinkedList.main(args);
+//        LinkedListDataStructures.AppendToLinkedList.main();
+//        LinkedListDataStructures.PrependToLinkedList.main();
+        LinkedListDataStructures.InsertNthToLinkedList.main();
     }
 }
