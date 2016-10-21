@@ -21,6 +21,7 @@ public class Main {
 //        LinkedListDataStructures.InsertNthToLinkedList.main();
 //        LinkedListDataStructures.DeleteNode.main(args);
 //        LinkedListDataStructures.ReversePrintLinkedList.main(args);
-        LinkedListDataStructures.ReverseLinkedList.main(args);
+//        LinkedListDataStructures.ReverseLinkedList.main(args);
+        LinkedListDataStructures.CompareLinkedLists.main(args);
     }
 }
