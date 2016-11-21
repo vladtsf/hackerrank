@@ -12,6 +12,7 @@ public class Main {
     public static void main(String[] args) {
 //        ArraysDataStructures.ArraysDS.main(args);
 //        ArraysDataStructures.TwoDArray.main(args);
+        ArraysDataStructures.DynamicArray.main(args);
 //        ArraysDataStructures.LeftRotation.main(args);
 //        ArraysDataStructures.SparseArrays.main(args);
         
@@ -22,6 +23,6 @@ public class Main {
 //        LinkedListDataStructures.DeleteNode.main(args);
 //        LinkedListDataStructures.ReversePrintLinkedList.main(args);
 //        LinkedListDataStructures.ReverseLinkedList.main(args);
-        LinkedListDataStructures.CompareLinkedLists.main(args);
+//        LinkedListDataStructures.CompareLinkedLists.main(args);
     }
 }
