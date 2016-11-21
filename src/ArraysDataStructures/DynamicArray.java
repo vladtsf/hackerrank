@@ -24,10 +24,6 @@ public class DynamicArray {
         
         HashMap<Integer, ArrayList<Integer>> seqList = new HashMap<>();
         
-//        ArrayList<ArrayList<Integer>> seqList = new ArrayList<>(N);
-//        int[][] seqList = new int[N][N];
-//        int[] sizes = new int[N];
-
         for(int i = 0; i < Q; i++) {
             int operation = scan.nextInt();
             int x = scan.nextInt();
@@ -40,14 +36,10 @@ public class DynamicArray {
                     seqList.put(seqIdx, new ArrayList<>());
                 }
                 seqList.get(seqIdx).add(y);
-//                seqList[seqIdx][sizes[seqIdx]++] = y;
             } else {
                 int size = seqList.get(seqIdx).size();
                 lastAns = seqList.get(seqIdx).get(y % size);
                 System.out.println(lastAns);
-//                int size = sizes[seqIdx];
-//                lastAns = seqList[seqIdx][y % size];
-//                System.out.println(lastAns);
             }
         }
     }
